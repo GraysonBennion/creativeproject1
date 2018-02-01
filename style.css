@@ -39,9 +39,17 @@ body {
 .menu li:hover{
     background-color:black;
 }
+.menu img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    margin-top:30px;
+}
 
 
 .main {
+    padding:30px;
     grid-area:main;
     background-color: #813772;
 }
@@ -49,4 +57,14 @@ body {
 .footer {
     grid-area:footer;
     background-color:#813772;
+    text-align:right;
+    padding:10px;
+}
+.footer a {
+    text-decoration:none;
+    color:white;
+    padding:10px;
+}
+.footer a:hover{
+    background-color:black;
 }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+  </header>
+  
+  <body>
+
+    <div class="menu">
+      <ul>
+        <a href="../index.html"><li>Home</li></a>
+        <a href="ev.html"><li>EV Guide</li></a>
+        <a href="breeding.html"><li>Breeding Guide</li></a>
+        <a href="natures.html"><li class="active">Nature Guide</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+      <img src="../photos/ball.png">
+    </div>
+
+    <div class="footer">
+      <a href="https://github.com/GraysonBennion/creativeproject1.git">
+	GitHub Repo
+      </a>
+    </div>
+
+    <div class="main">
+    </div>
+
+  </body>
+  
+</html>
