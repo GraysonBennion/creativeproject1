@@ -1,0 +1,52 @@
+/*
+BLACK:#000000
+INK:#062F4F
+POSY:#813772
+EMBERS:#882601
+
+*/
+
+body {
+    color:white;
+    height:900px;
+    background-color:black;
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows:1fr 50px;
+    grid-gap:30px;
+    grid-template-areas: "menu main"
+			     "menu footer"
+}
+
+.menu{
+    grid-area:menu;
+    background-color: #882601;
+}
+.menu ul{
+    padding:0px;
+    list-style-type:none;
+}
+.menu li{
+    padding:10px;
+}
+.active{
+    background-color:black;
+}
+.menu a{
+    text-decoration:none;
+    color:white;
+}
+.menu li:hover{
+    background-color:black;
+}
+
+
+.main {
+    grid-area:main;
+    background-color: #813772;
+}
+
+.footer {
+    grid-area:footer;
+    background-color:#813772;
+}
